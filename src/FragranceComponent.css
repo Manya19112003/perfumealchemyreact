@@ -1,0 +1,162 @@
+
+.grid-heading {
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+}
+
+:root{
+    /* --white-light: rgba(255, 255, 255, 0.5); */
+    --alice-blue: #f8f9fa;
+    --carribean-green: rgb(234, 175, 67);
+    --gray: gray;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+img{
+    width: 100%;
+    display: block;
+}
+.container{
+    width: 88vw;
+    margin: 0 auto;
+}
+.horizontal-lines {
+    border: 1px solid #fff; 
+    margin: 0; 
+}
+.lg-title{
+    margin-top: 100px;
+    color: black;
+}
+
+.lg-title,
+.md-title,
+.sm-title{
+    font-family: 'Roboto', sans-serif;
+    /* padding: 0.6rem 0; */
+    text-transform: capitalize;
+    color:black;
+}
+.lg-title{
+    font-size: 3.5rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 1.3rem 0;
+    opacity: 0.9;
+}
+.md-title{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+.sm-title{
+    padding-top: 10px;
+    font-weight: 300;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: black;
+}
+.text-light{
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+    opacity: 0.5;
+    margin: 0.4rem 0;
+    color:black;
+}
+.product-collection {
+    padding: 3.2rem 0;
+}
+.product-collection-wrapper {
+    padding: 3.2rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.product-col-left,
+.product-col-r-top {
+    background-position: center/cover;
+}
+.product-col-left {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("https://www.skinn.in/dw/image/v2/BKMH_PRD/on/demandware.static/-/Sites-Skinn-product-catalog/default/dwa068c948/images/Skinn/hi-res/FW05PG2_2.jpg?sw=640");
+}
+.product-col-r-top {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRdhVD5qbyHNElxyIqwR8smZyMptP9rBXxYfQT2I2ANX5p5C4a5");
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 50vh;
+    padding: 2rem 1.5rem 3.2rem;
+    margin: 5px;
+}
+.product-col-r-bottom > div:first-child {
+    background: pink;
+}
+.product-col-r-bottom > div:last-child {
+    background: #0090ff;
+}
+.product-col-content {
+    text-align: center;
+    color: black;
+}
+.product-collection .text-light {
+    opacity: 1;
+    font-size: 0.8;
+    font-weight: 400;
+    line-height: 1.7;
+}
+.btn-dark {
+    background: black;
+    color: white;
+    outline: 0;
+    border-radius: 25px;
+    padding: 0.7rem 1rem;
+    border: 0;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: all 0.6s ease;
+    font-size: 1rem;
+    font-family: inherit;
+}
+.btn-dark:hover {
+    background: var(--carribean-green);
+}
+@media screen and (min-width: 1200px){
+    .product-items {
+        grid-template-columns: repeat(2, 1fr); /* Change to two columns */
+    }
+    .product {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    .products .text-light {
+        width: auto; /* Remove width constraint */
+    }
+}
+
+@media screen and (min-width: 1336px){
+    .product-items {
+        grid-template-columns: repeat(2, 1fr); /* Change to two columns */
+    }
+    .product-collection-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .flex {
+        height: auto; /* Remove height constraint */
+    }
+    .product-col-left {
+        height: auto; /* Remove height constraint */
+    }
+}

@@ -1,0 +1,31 @@
+.sur {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.text-containerss {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold; /* Set font weight to bold */
+    width: 1100px; /* Adjust the width as needed */
+    height: 500px;
+    border: 3px double rgb(234, 175, 67);
+}
+
+.text-containerss h1 {
+    color: rgb(234, 175, 67); /* Set the heading color to gold */
+    font-weight: bold; /* Set font weight to bold for the heading */
+}
+
+.text-containerss p {
+    color: white; /* Set the paragraph color to white */
+    font-weight: bold; /* Set font weight to bold for the paragraphs */
+}

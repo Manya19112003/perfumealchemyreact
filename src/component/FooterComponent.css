@@ -1,0 +1,70 @@
+.footer-section {
+    padding: 40px 120px;
+    background-color:white;
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-1-container {
+    display: flex;
+}
+
+.first-1-container span {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-weight: 400;
+}
+
+.second-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.second-section div {
+    width: 200px;
+}
+
+.second-section h4 {
+    font-weight: lighter;
+    color: rgb(22, 22, 22);
+    white-space: nowrap;
+}
+
+.second-section a {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: gray;
+    font-size: 0.9rem;
+}
+
+.second-section img {
+    width: 137px;
+    height: 40px;
+    margin-top: 11px;
+    cursor: pointer;
+}
+
+.social-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-box i {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.footer-message {
+    padding: 10px 0;
+    color: gray;
+    font-size: 0.9rem;
+}

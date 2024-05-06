@@ -1,0 +1,100 @@
+.section-5 {
+    display: flex;
+    margin: 90px 0;
+    padding: 40px 0;
+    justify-content: center;
+    background-color: rgb(255, 248, 248);
+}
+
+
+.flex-container {
+    display: flex;
+}
+
+.contact-container {
+    width: 760px;
+    overflow: hidden;
+}
+
+.contact-container img {
+    width: 350px;
+    height: 450px;
+    padding-right: 20px;
+}
+
+.contact-details {
+    width: 470px;
+    margin-top: 20px;
+    padding-left: 10px;
+    /* padding-right: 20px; */
+    color: #111111;
+}
+
+.contact-details p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 0.95rem;
+    color: rgb(92, 91, 91);
+}
+
+.radio-container {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 230px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.radio-container label {
+    font-size: 1.1rem;
+    color: rgb(49, 49, 49);
+}
+
+.radio-container[type="radio"] {
+    accent-color: rgb(255, 92, 92);
+}
+
+.email-container {
+    position: relative;
+}
+
+.email-container input {
+    height: 46px;
+    border-radius: 5px;
+    width: 270px;
+    border: 1px solid rgb(184, 183, 183);
+    outline: rgb(255, 92, 92);
+    font-size: 1.3rem;
+    padding-left: 15px;
+}
+
+.placeholder-label {
+    position: absolute;
+    font-size: 1.3rem;
+    left: 15px;
+    top: 13px;
+    color: gray;
+    font-weight: lighter;
+}
+
+.email-container button {
+    width: 150px;
+    border-radius: 6px;
+    border: 1px solid rgb(253, 104, 104);
+    background-color: rgb(253, 104, 104);
+    font-size: 1.1rem;
+    margin-left: 6px;
+    color: white;
+}
+
+.download-message {
+    font-size: 0.7rem;
+    margin-top: 27px;
+    margin-bottom: 0;
+    color: gray;
+}
+
+.app-icons img {
+    width: 137px;
+    height: 40px;
+}

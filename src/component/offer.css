@@ -1,0 +1,101 @@
+.offers {
+    /* height: 50vh; */
+    width: 100vw;
+    background-color: #390C09;
+}
+
+.flash-sale-offers {
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 52px;
+}
+
+.flash-sale-offers-below {
+    text-align: center;
+    font-size: large;
+    text-transform: uppercase;
+    color: white;
+}
+
+.threebox {
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 33.5%;
+    margin-top: 55px;
+}
+
+.threebox1, .threebox2, .threebox3 {
+    border: 1px solid rgb(238, 187, 92);
+    width: 23.33%;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.threebox1 p, .threebox2 p, .threebox3 p{
+    color: white;
+}
+
+.threebox1 h5, .threebox2 h5, .threebox3 h5 {
+    padding-top: 25px;
+    font-size: large;
+    font-weight: 300%;
+    color: rgb(238, 187, 92);
+}
+
+.Retailoffers {
+    /* height: 50vh; */
+    width: 100vw;
+    background-color: #FFE9D1;
+    color: #111111;
+}
+
+.Retail-sale-offers {
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 52px;
+}
+
+.Retail-sale-offers-below {
+    text-align: center;
+    font-size: large;
+    text-transform: uppercase;
+}
+
+.threeboxR {
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 33.5%;
+    margin-top: 55px;
+}
+
+.threebox1R, .threebox2R, .threebox3R {
+    border: 1px solid rgb(238, 187, 92);
+    width: 23.33%;
+    padding-top: 15px;
+    padding-left: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.4), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.threebox1R h5, .threebox2R h5, .threebox3R h5 {
+    padding-top: 25px;
+    font-size: large;
+    font-weight: 300%;
+    color: #390C09;
+}
